@@ -1,0 +1,7 @@
+nucl = input("Введите последовательность ДНК")
+nucl_up= str.upper(nucl)
+count_A = nucl_up.count("A")
+count_T = nucl_up.count("T")
+count_G = nucl_up.count("G")
+count_C = nucl_up.count("C")
+print(f"Введите последовательность ДНК: {nucl}\n Последовательность в верхнем регистре: {nucl_up}\n Подсчет нуклеотидов:\n A: {count_A}\n T: {count_T}\n G: {count_G}\n C: {count_C}")
